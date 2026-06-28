@@ -64,7 +64,7 @@
 
 ## 5.2. Корреляционная матрица (Спирмен)
 
-![correlation_heatmap](plots/correlation_heatmap.png)
+![correlation_heatmap](../app/output/plots/correlation_heatmap.png)
 
 ### Сильные значимые корреляции (|ρ| > 0.7, p < 0.05)
 
@@ -87,7 +87,7 @@
 
 ## 5.3. Визуализация гипотез
 
-![hypothesis_scatters](plots/hypothesis_scatters.png)
+![hypothesis_scatters](../app/output/plots/hypothesis_scatters.png)
 
 Scatter-графики подтверждают статистические выводы: чёткой линейной зависимости не наблюдается ни для H2, ни для H3, ни для H5.
 
