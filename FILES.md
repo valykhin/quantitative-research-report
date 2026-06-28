@@ -50,7 +50,8 @@
 | [descriptive_analysis.py](app/descriptive_analysis.py) | Описательные статистики, тест нормальности, графики | `uv run python descriptive_analysis.py` |
 | [inferential_analysis.py](app/inferential_analysis.py) | Проверка гипотез (Вилкоксон, Спирмен, хи-квадрат), корреляционная матрица | `uv run python inferential_analysis.py` |
 | [multivariate_analysis.py](app/multivariate_analysis.py) | Регрессия (МНК) и кластерный анализ (k-means) | `uv run python multivariate_analysis.py` |
-| [build_report.py](app/build_report.py) | Сборка итогового xlsx-отчёта (10 листов с данными, расчётами и графиками) | `uv run python build_report.py` |
+| [build_report.py](app/build_report.py) | Сборка итогового xlsx-отчёта (10 листов, нативные Excel-чарты + PNG) | `uv run python build_report.py` |
+| [build_presentation.py](app/build_presentation.py) | Сборка презентации PPTX (13 слайдов с тезисами, таблицами и графиками) | `uv run python build_presentation.py` |
 
 ### Данные (`app/data/`)
 
@@ -66,7 +67,8 @@
 
 | Файл | Описание |
 |---|---|
-| [report.xlsx](app/output/report.xlsx) | **Итоговый отчёт** — 10 листов с данными, таблицами, графиками (самодостаточный для презентации) |
+| [report.xlsx](app/output/report.xlsx) | **Итоговый отчёт** — 10 листов с данными, таблицами, графиками (нативные Excel-чарты + PNG) |
+| [presentation.pptx](app/output/presentation.pptx) | **Презентация** — 13 слайдов с ключевыми тезисами, таблицами и графиками |
 | [descriptive_stats.xlsx](app/output/descriptive_stats.xlsx) | Описательные статистики (среднее, медиана, σ, асимметрия, эксцесс, IQR) |
 | [normality_tests.xlsx](app/output/normality_tests.xlsx) | Результаты теста Шапиро-Уилка |
 | [hypothesis_tests.xlsx](app/output/hypothesis_tests.xlsx) | Сводка тестов гипотез H1–H5 |

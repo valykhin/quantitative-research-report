@@ -91,4 +91,4 @@
 | 5 | Инференциальный анализ (DONE) | `output/stage5_inferential.md` |
 | 6 | Многофакторный анализ (DONE) | `output/stage6_multivariate.md` |
 | 7 | Интерпретация и выводы (DONE) | `output/stage7_conclusions.md` |
-| 8 | Оформление отчёта и презентации (DONE) | `output/report.md` |
+| 8 | Оформление отчёта и презентации (DONE) | `output/report.md`, `app/output/report.xlsx`, `app/output/presentation.pptx` |
